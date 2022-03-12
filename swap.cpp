@@ -8,8 +8,8 @@ void swap(int & a, int & b) {
     b = temp;
 }
 
-int main () {
+int main () {           //beginning scope of the main function
     int a = 2, b = 5;
     swap(a, b);
     cout << "a - " << a << " b - " << b;
-}
+}                       //Ending scope of the main function
